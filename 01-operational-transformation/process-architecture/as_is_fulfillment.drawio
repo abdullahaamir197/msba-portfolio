@@ -1,0 +1,67 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="1mD3vq5qAhxCSZc0CQes">
+    <mxGraphModel dx="1198" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="9-Fsr2SaJ34w15fnD-4X-21" parent="1" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=1;startSize=20;horizontalStack=0;whiteSpace=wrap;" value="AS-IS PROCESS ARCHITECTURE" vertex="1">
+          <mxGeometry height="630" width="1060" x="60" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="9-Fsr2SaJ34w15fnD-4X-22" parent="9-Fsr2SaJ34w15fnD-4X-21" style="swimlane;html=1;startSize=20;horizontal=0;" value="Customer" vertex="1">
+          <mxGeometry height="140" width="1060" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="9-Fsr2SaJ34w15fnD-4X-29" parent="9-Fsr2SaJ34w15fnD-4X-22" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=standard;symbol=general;" value="Order placed&amp;nbsp;" vertex="1">
+          <mxGeometry height="50" width="50" x="60" y="35" as="geometry" />
+        </mxCell>
+        <mxCell id="9-Fsr2SaJ34w15fnD-4X-58" edge="1" parent="9-Fsr2SaJ34w15fnD-4X-22" source="9-Fsr2SaJ34w15fnD-4X-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="9-Fsr2SaJ34w15fnD-4X-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9-Fsr2SaJ34w15fnD-4X-56" parent="9-Fsr2SaJ34w15fnD-4X-22" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" value="Receive Delivery" vertex="1">
+          <mxGeometry height="80" width="120" x="850" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9-Fsr2SaJ34w15fnD-4X-57" parent="9-Fsr2SaJ34w15fnD-4X-22" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=end;symbol=terminate2;" value="END" vertex="1">
+          <mxGeometry height="50" width="50" x="990" y="45" as="geometry" />
+        </mxCell>
+        <mxCell id="9-Fsr2SaJ34w15fnD-4X-23" parent="9-Fsr2SaJ34w15fnD-4X-21" style="swimlane;html=1;startSize=20;horizontal=0;" value="Olist OMS" vertex="1">
+          <mxGeometry height="200" width="1060" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="9-Fsr2SaJ34w15fnD-4X-41" parent="9-Fsr2SaJ34w15fnD-4X-23" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" value="Ingest Order &amp; Query Seller Geo-Locations" vertex="1">
+          <mxGeometry height="80" width="120" x="260" y="60" as="geometry" />
+        </mxCell>
+        <object label="Seller" id="9-Fsr2SaJ34w15fnD-4X-24">
+          <mxCell parent="9-Fsr2SaJ34w15fnD-4X-21" style="swimlane;html=1;startSize=20;horizontal=0;fontFamily=Times New Roman;fontStyle=1;align=center;" vertex="1">
+            <mxGeometry height="140" width="1060" y="360" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="9-Fsr2SaJ34w15fnD-4X-52" parent="9-Fsr2SaJ34w15fnD-4X-24" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" value="Pack and Label" vertex="1">
+          <mxGeometry height="80" width="120" x="340" y="40" as="geometry" />
+        </mxCell>
+        <object label="Logistic Network" id="9-Fsr2SaJ34w15fnD-4X-27">
+          <mxCell parent="9-Fsr2SaJ34w15fnD-4X-21" style="swimlane;html=1;startSize=20;horizontal=0;fontFamily=Times New Roman;fontStyle=1;align=center;" vertex="1">
+            <mxGeometry height="130" width="1060" y="500" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="9-Fsr2SaJ34w15fnD-4X-54" parent="9-Fsr2SaJ34w15fnD-4X-27" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;" value="Transit" vertex="1">
+          <mxGeometry height="80" width="120" x="590" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="9-Fsr2SaJ34w15fnD-4X-42" edge="1" parent="9-Fsr2SaJ34w15fnD-4X-21" source="9-Fsr2SaJ34w15fnD-4X-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.421;entryY=-0.04;entryDx=0;entryDy=0;entryPerimeter=0;" target="9-Fsr2SaJ34w15fnD-4X-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9-Fsr2SaJ34w15fnD-4X-53" edge="1" parent="9-Fsr2SaJ34w15fnD-4X-21" source="9-Fsr2SaJ34w15fnD-4X-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" target="9-Fsr2SaJ34w15fnD-4X-54">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="240" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9-Fsr2SaJ34w15fnD-4X-55" edge="1" parent="9-Fsr2SaJ34w15fnD-4X-21" source="9-Fsr2SaJ34w15fnD-4X-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="9-Fsr2SaJ34w15fnD-4X-56">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="439.9966666666666" y="470" as="sourcePoint" />
+            <mxPoint x="559.9966666666666" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9-Fsr2SaJ34w15fnD-4X-72" edge="1" parent="9-Fsr2SaJ34w15fnD-4X-21" source="9-Fsr2SaJ34w15fnD-4X-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="9-Fsr2SaJ34w15fnD-4X-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

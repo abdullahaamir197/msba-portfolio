@@ -1,0 +1,5 @@
+~$* 
+**/Olist_dataset/ 
+**/data/ 
+*.duckdb 
+*.db 

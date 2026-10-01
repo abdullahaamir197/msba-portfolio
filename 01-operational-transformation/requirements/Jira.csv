@@ -1,0 +1,104 @@
+Summary,Issue key,Issue id,Issue Type,Status,Project key,Project name,Project type,Project lead,Project lead id,Project description,Priority,Resolution,Assignee,Assignee Id,Reporter,Reporter Id,Creator,Creator Id,Created,Updated,Last Viewed,Resolved,Due date,Votes,Description,Environment,Watchers,Watchers Id,Original estimate,Remaining Estimate,Time Spent,Work Ratio,Σ Original Estimate,Σ Remaining Estimate,Σ Time Spent,Security Level,Custom field (Development),Custom field (Issue colour),Custom field (Rank),Sprint,Custom field (Start date),Custom field (Story point estimate),Custom field (Team),Custom field (Vulnerability),Parent,Parent key,Parent summary,Status Category,Status Category Changed
+Regional Geo-Fencing & In-State Allocation,OLIST-1,10000,Epic,To Do,OLIST,Olist Logistics Turnaround,software,Abdullah Aamir,712020:8f48cbab-c9dd-4a6a-b7a5-cb310e4e3e5c,,Medium,,Abdullah Aamir,712020:8f48cbab-c9dd-4a6a-b7a5-cb310e4e3e5c,Abdullah Aamir,712020:8f48cbab-c9dd-4a6a-b7a5-cb310e4e3e5c,Abdullah Aamir,712020:8f48cbab-c9dd-4a6a-b7a5-cb310e4e3e5c,30/Sep/26 9:12 PM,30/Sep/26 9:13 PM,30/Sep/26 9:12 PM,,,0,_All routing rules and database checks required to evaluate seller state against customer state and prioritize in-state fulfillment._,,Abdullah Aamir,712020:8f48cbab-c9dd-4a6a-b7a5-cb310e4e3e5c,,,,,,,,,{},,0|hzzzzz:,,,,,,,,,To Do,30/Sep/26 9:12 PM
+Automated Margin Floor Guardrail Engine,OLIST-2,10001,Epic,To Do,OLIST,Olist Logistics Turnaround,software,Abdullah Aamir,712020:8f48cbab-c9dd-4a6a-b7a5-cb310e4e3e5c,,Medium,,Abdullah Aamir,712020:8f48cbab-c9dd-4a6a-b7a5-cb310e4e3e5c,Abdullah Aamir,712020:8f48cbab-c9dd-4a6a-b7a5-cb310e4e3e5c,Abdullah Aamir,712020:8f48cbab-c9dd-4a6a-b7a5-cb310e4e3e5c,30/Sep/26 9:13 PM,30/Sep/26 9:14 PM,30/Sep/26 9:14 PM,,,0,_The calculation engine that checks order profitability against carrier freight estimates and locks negative-margin orders._,,Abdullah Aamir,712020:8f48cbab-c9dd-4a6a-b7a5-cb310e4e3e5c,,,,,,,,,{},,0|i00002:,,,,,,,,,To Do,30/Sep/26 9:13 PM
+Proactive Customer Exception Management,OLIST-3,10002,Epic,To Do,OLIST,Olist Logistics Turnaround,software,Abdullah Aamir,712020:8f48cbab-c9dd-4a6a-b7a5-cb310e4e3e5c,,Medium,,Abdullah Aamir,712020:8f48cbab-c9dd-4a6a-b7a5-cb310e4e3e5c,Abdullah Aamir,712020:8f48cbab-c9dd-4a6a-b7a5-cb310e4e3e5c,Abdullah Aamir,712020:8f48cbab-c9dd-4a6a-b7a5-cb310e4e3e5c,30/Sep/26 9:14 PM,30/Sep/26 9:15 PM,30/Sep/26 10:36 PM,,,0,"_Automated CRM webhooks, customer hold notifications, and seller packaging SLA breach alerts._",,Abdullah Aamir,712020:8f48cbab-c9dd-4a6a-b7a5-cb310e4e3e5c,,,,,,,,,{},,0|i0000c:,,,,,,,,,To Do,30/Sep/26 9:14 PM
+Implement In-State Seller Prioritization Routing Rule,OLIST-4,10003,Story,To Do,OLIST,Olist Logistics Turnaround,software,Abdullah Aamir,712020:8f48cbab-c9dd-4a6a-b7a5-cb310e4e3e5c,,Highest,,Abdullah Aamir,712020:8f48cbab-c9dd-4a6a-b7a5-cb310e4e3e5c,Abdullah Aamir,712020:8f48cbab-c9dd-4a6a-b7a5-cb310e4e3e5c,Abdullah Aamir,712020:8f48cbab-c9dd-4a6a-b7a5-cb310e4e3e5c,30/Sep/26 9:44 PM,30/Sep/26 10:44 PM,30/Sep/26 10:43 PM,,,0,"AS THE Olist Order Routing Engine,
+I WANT TO evaluate the customer's shipping state against all eligible seller locations upon order checkout,
+SO THAT we prioritize local in-state fulfillment and eliminate cross-country freight surcharges.
+
+ACCEPTANCE CRITERIA:
+GIVEN an order contains SKU ""P-100"" and the customer's state is ""SP"",
+AND Seller A (State: ""SP"") and Seller B (State: ""BA"") both have stock,
+WHEN the routing engine assigns the order,
+THEN the order SHALL be assigned to Seller A,
+AND the route classification SHALL be marked as ""INTRASTATE_LOCAL"".",,Abdullah Aamir,712020:8f48cbab-c9dd-4a6a-b7a5-cb310e4e3e5c,,,,,,,,,{},,0|i0000k:,SCRUM Sprint 1,,3.0,,,10000,OLIST-1,Regional Geo-Fencing & In-State Allocation,To Do,30/Sep/26 9:44 PM
+Dynamic Contribution Margin Calculation Service,OLIST-5,10004,Story,To Do,OLIST,Olist Logistics Turnaround,software,Abdullah Aamir,712020:8f48cbab-c9dd-4a6a-b7a5-cb310e4e3e5c,,Highest,,Abdullah Aamir,712020:8f48cbab-c9dd-4a6a-b7a5-cb310e4e3e5c,Abdullah Aamir,712020:8f48cbab-c9dd-4a6a-b7a5-cb310e4e3e5c,Abdullah Aamir,712020:8f48cbab-c9dd-4a6a-b7a5-cb310e4e3e5c,30/Sep/26 9:47 PM,30/Sep/26 10:45 PM,30/Sep/26 10:45 PM,,,0,"AS THE Olist OMS,
+I WANT TO calculate the projected contribution margin by subtracting supplier COGS and carrier freight estimates from the net order revenue,
+SO THAT unprofitable orders are detected before carrier labels are generated.
+
+ACCEPTANCE CRITERIA:
+GIVEN an order has a commission of R$ 10.00,
+AND the estimated long-haul carrier freight is R$ 35.00,
+WHEN the calculation service evaluates the transaction,
+THEN the projected margin SHALL calculate to -R$ 25.00,
+AND a flag SHALL be raised indicating margin floor breach (< R$ 15.00).",,Abdullah Aamir,712020:8f48cbab-c9dd-4a6a-b7a5-cb310e4e3e5c,,,,,,,,,{},,0|i0000t:,SCRUM Sprint 1,,5.0,,,10001,OLIST-2,Automated Margin Floor Guardrail Engine,To Do,30/Sep/26 9:47 PM
+Multi-Seller Tie-Breaker Logic by Review Score,OLIST-6,10005,Story,To Do,OLIST,Olist Logistics Turnaround,software,Abdullah Aamir,712020:8f48cbab-c9dd-4a6a-b7a5-cb310e4e3e5c,,High,,Abdullah Aamir,712020:8f48cbab-c9dd-4a6a-b7a5-cb310e4e3e5c,Abdullah Aamir,712020:8f48cbab-c9dd-4a6a-b7a5-cb310e4e3e5c,Abdullah Aamir,712020:8f48cbab-c9dd-4a6a-b7a5-cb310e4e3e5c,30/Sep/26 9:57 PM,30/Sep/26 10:46 PM,,,,0,"AS THE Olist Order Routing Engine,
+I WANT TO select the merchant with the highest historical review score when multiple in-state sellers have stock,
+SO THAT customer satisfaction is maximized while keeping fulfillment local.
+
+ACCEPTANCE CRITERIA:
+GIVEN an order has two eligible sellers located in the customer's state,
+AND Seller A has an average review score of 4.8 and Seller B has an average review score of 4.1,
+WHEN the routing engine evaluates the tie-breaker,
+THEN the order SHALL be assigned to Seller A,
+AND the selection reason SHALL be logged as ""HIGHEST_LOCAL_RATING"".",,Abdullah Aamir,712020:8f48cbab-c9dd-4a6a-b7a5-cb310e4e3e5c,,,,,,,,,{},,0|i0000x:,,,2.0,,,10000,OLIST-1,Regional Geo-Fencing & In-State Allocation,To Do,30/Sep/26 9:57 PM
+OMS-to-CRM Webhook Event Publisher,OLIST-9,10008,Story,To Do,OLIST,Olist Logistics Turnaround,software,Abdullah Aamir,712020:8f48cbab-c9dd-4a6a-b7a5-cb310e4e3e5c,,High,,Abdullah Aamir,712020:8f48cbab-c9dd-4a6a-b7a5-cb310e4e3e5c,Abdullah Aamir,712020:8f48cbab-c9dd-4a6a-b7a5-cb310e4e3e5c,Abdullah Aamir,712020:8f48cbab-c9dd-4a6a-b7a5-cb310e4e3e5c,30/Sep/26 10:12 PM,30/Sep/26 10:46 PM,,,,0,"AS THE Olist Order Management System,
+I WANT TO publish an automated JSON webhook event to the CRM when an order enters ""LOGISTICS_HOLD"",
+SO THAT the customer support engine can proactively notify the buyer before delivery frustration occurs.
+
+ACCEPTANCE CRITERIA:
+GIVEN an order's status transitions to ""LOGISTICS_HOLD"",
+WHEN the database update is committed,
+THEN an automated HTTP POST webhook SHALL be dispatched to the CRM within 800 milliseconds,
+AND the JSON payload SHALL contain:
+
+* ""order_id""
+* ""customer_id""
+* ""hold_reason"" (e.g., ""MARGIN_FLOOR_BREACH"")
+* ""projected_margin""
+* ""timestamp""
+AND IF the CRM returns an error, the system SHALL retry the webhook 3 times with exponential backoff.",,Abdullah Aamir,712020:8f48cbab-c9dd-4a6a-b7a5-cb310e4e3e5c,,,,,,,,,{},,0|i0000z:,,,3.0,,,10002,OLIST-3,Proactive Customer Exception Management,To Do,30/Sep/26 10:12 PM
+Automated LOGISTICS_HOLD State Machine & Lock,OLIST-7,10006,Story,To Do,OLIST,Olist Logistics Turnaround,software,Abdullah Aamir,712020:8f48cbab-c9dd-4a6a-b7a5-cb310e4e3e5c,,Highest,,Abdullah Aamir,712020:8f48cbab-c9dd-4a6a-b7a5-cb310e4e3e5c,Abdullah Aamir,712020:8f48cbab-c9dd-4a6a-b7a5-cb310e4e3e5c,Abdullah Aamir,712020:8f48cbab-c9dd-4a6a-b7a5-cb310e4e3e5c,30/Sep/26 9:59 PM,30/Sep/26 10:46 PM,,,,0,"AS THE Olist OMS,
+I WANT TO update the order status to ""LOGISTICS_HOLD"" and lock shipping label generation when projected margin is below R$ 15.00,
+SO THAT carriers are never dispatched for unprofitable interstate orders.
+
+ACCEPTANCE CRITERIA:
+GIVEN an order has a calculated margin of R$ 12.00,
+WHEN the margin guardrail flags the breach,
+THEN the database status SHALL update to ""LOGISTICS_HOLD"",
+AND any API requests to generate a carrier shipping label SHALL return an HTTP 403 Forbidden error with message ""LOCKED_DUE_TO_MARGIN_HOLD"".",,Abdullah Aamir,712020:8f48cbab-c9dd-4a6a-b7a5-cb310e4e3e5c,,,,,,,,,{},,0|i0001r:,SCRUM Sprint 1,,3.0,,,10001,OLIST-2,Automated Margin Floor Guardrail Engine,To Do,30/Sep/26 9:59 PM
+Carrier Freight Rate Estimation API Integration,OLIST-8,10007,Story,To Do,OLIST,Olist Logistics Turnaround,software,Abdullah Aamir,712020:8f48cbab-c9dd-4a6a-b7a5-cb310e4e3e5c,,Highest,,Abdullah Aamir,712020:8f48cbab-c9dd-4a6a-b7a5-cb310e4e3e5c,Abdullah Aamir,712020:8f48cbab-c9dd-4a6a-b7a5-cb310e4e3e5c,Abdullah Aamir,712020:8f48cbab-c9dd-4a6a-b7a5-cb310e4e3e5c,30/Sep/26 10:04 PM,30/Sep/26 10:46 PM,,,,0,"AS THE Olist Margin Engine,
+I WANT TO query real-time carrier freight rates via API with an automated fallback to internal postal rate tables,
+SO THAT accurate freight costs govern routing decisions without risking checkout latency or server downtime.
+
+ACCEPTANCE CRITERIA:
+Scenario 1: Live API Success
+GIVEN an order has origin zip ""01000"" and destination zip ""40000"",
+WHEN the carrier API responds within 800 milliseconds,
+THEN the real-time freight quote SHALL be used for the margin calculation.
+
+Scenario 2: API Timeout / Outage Fallback
+GIVEN the carrier API is down or takes longer than 800 milliseconds to respond,
+WHEN the circuit breaker triggers,
+THEN the system SHALL fetch the estimated freight from the internal static rate table,
+AND an audit warning SHALL be logged with flag ""STATIC_RATE_FALLBACK_USED"".",,Abdullah Aamir,712020:8f48cbab-c9dd-4a6a-b7a5-cb310e4e3e5c,,,,,,,,,{},,0|i0001w:,SCRUM Sprint 1,,5.0,,,10001,OLIST-2,Automated Margin Floor Guardrail Engine,To Do,30/Sep/26 10:04 PM
+48-Hour Seller Packaging SLA Alert Job,OLIST-11,10010,Story,To Do,OLIST,Olist Logistics Turnaround,software,Abdullah Aamir,712020:8f48cbab-c9dd-4a6a-b7a5-cb310e4e3e5c,,High,,Abdullah Aamir,712020:8f48cbab-c9dd-4a6a-b7a5-cb310e4e3e5c,Abdullah Aamir,712020:8f48cbab-c9dd-4a6a-b7a5-cb310e4e3e5c,Abdullah Aamir,712020:8f48cbab-c9dd-4a6a-b7a5-cb310e4e3e5c,30/Sep/26 10:24 PM,30/Sep/26 10:46 PM,,,,0,"AS THE Background SLA Monitoring Service,
+I WANT TO scan active assigned orders every hour and flag merchants who have not confirmed carrier handoff within 48 hours,
+SO THAT delinquent sellers lose routing priority and support teams can intervene before customer delivery dates fail.
+
+ACCEPTANCE CRITERIA:
+Scenario 1: Seller Breaches 48-Hour Packaging SLA
+GIVEN an order has been in ""ASSIGNED_TO_SELLER"" status for > 48 hours,
+AND the ""order_delivered_carrier_date"" field is NULL,
+WHEN the hourly background SLA audit job runs,
+THEN the order status SHALL update to ""DISPATCH_BREACH"",
+AND the seller's internal reliability score SHALL be penalized by -5 points,
+AND an urgent escalation notification SHALL be dispatched to the merchant's portal.",,Abdullah Aamir,712020:8f48cbab-c9dd-4a6a-b7a5-cb310e4e3e5c,,,,,,,,,{},,0|i00028:,,,3.0,,,10002,OLIST-3,Proactive Customer Exception Management,To Do,30/Sep/26 10:24 PM
+Automated Customer Resolution Engine for Held Orders,OLIST-10,10009,Story,To Do,OLIST,Olist Logistics Turnaround,software,Abdullah Aamir,712020:8f48cbab-c9dd-4a6a-b7a5-cb310e4e3e5c,,Low,,Abdullah Aamir,712020:8f48cbab-c9dd-4a6a-b7a5-cb310e4e3e5c,Abdullah Aamir,712020:8f48cbab-c9dd-4a6a-b7a5-cb310e4e3e5c,Abdullah Aamir,712020:8f48cbab-c9dd-4a6a-b7a5-cb310e4e3e5c,30/Sep/26 10:17 PM,30/Sep/26 10:47 PM,,,,0,"AS THE Automated Support Engine,
+I WANT TO present customers whose orders are on hold with in-region alternative SKUs or a one-click refund,
+SO THAT customers avoid late delivery frustration and retention is preserved.
+
+ACCEPTANCE CRITERIA:
+Scenario 1: Customer Selects In-Region Alternative
+GIVEN an order is in ""LOGISTICS_HOLD"",
+WHEN the customer clicks ""Accept Alternative SKU"" via the resolution notification,
+THEN the original order SHALL be updated to the new SKU,
+AND the status SHALL transition to ""ASSIGNED_TO_SELLER"",
+AND the hold lock SHALL be released.
+
+Scenario 2: Customer Expiration / Ghosting (48h Default)
+GIVEN an order has been on ""LOGISTICS_HOLD"" for 48 hours without customer response,
+WHEN the scheduled resolution audit job executes,
+THEN the system SHALL automatically process a 100% payment refund,
+AND the order status SHALL transition to ""CANCELLED_HOLD_TIMEOUT"",
+AND an automated goodwill credit voucher of R$ 10 SHALL be emailed to the customer.",,Abdullah Aamir,712020:8f48cbab-c9dd-4a6a-b7a5-cb310e4e3e5c,,,,,,,,,{},,0|i0002g:,,,5.0,,,10002,OLIST-3,Proactive Customer Exception Management,To Do,30/Sep/26 10:17 PM
