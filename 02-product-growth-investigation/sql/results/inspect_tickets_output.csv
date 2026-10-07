@@ -1,0 +1,16 @@
+subject,priority,ticket_count
+Trial upgrade not processing,Low,22
+Slow page load times in app,Medium,15
+API request returning 500 error,High,14
+Notification emails not being sent,High,14
+UI not loading correctly on dashboard,High,13
+Data sync delay between systems,Low,13
+UI misalignment on Chrome,Medium,12
+UI misalignment on Chrome,Low,12
+Unable to log in with SSO,Low,12
+Trial upgrade not processing,High,12
+Integration with Salesforce failing,High,12
+Two-factor authentication setup failing,Low,11
+Email sync not working,Medium,11
+Mobile app crashes on login,Medium,11
+Broken link in help center,Low,10

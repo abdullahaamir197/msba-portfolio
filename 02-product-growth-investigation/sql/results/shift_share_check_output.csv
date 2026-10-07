@@ -1,0 +1,14 @@
+cohort_quarter,industry,total_cohort_companies,retained_companies,retention_rate_pct
+2025-01-01,SaaS,9,8,88.89
+2025-01-01,Healthcare,8,6,75.0
+2025-01-01,E-commerce,8,6,75.0
+2025-01-01,EdTech,6,6,100.0
+2025-01-01,Fintech,3,2,66.67
+2025-04-01,E-commerce,3,2,66.67
+2025-04-01,SaaS,2,1,50.0
+2025-04-01,EdTech,2,1,50.0
+2025-04-01,Healthcare,2,1,50.0
+2025-04-01,Fintech,2,0,0.0
+2025-07-01,EdTech,2,0,0.0
+2025-07-01,E-commerce,1,0,0.0
+2025-07-01,SaaS,1,0,0.0

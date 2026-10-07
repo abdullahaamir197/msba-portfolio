@@ -1,0 +1,5 @@
+step_number,step_name,deals_count,absolute_conversion_pct,step_conversion_pct,step_dropoff_pct
+1,1. Prospecting,150.0,100.0,100.0,0.0
+2,2. Demo Scheduled,85.0,56.67,56.67,43.33
+3,3. Negotiation,54.0,36.0,63.53,36.47
+4,4. Closed Won,23.0,15.33,42.59,57.41

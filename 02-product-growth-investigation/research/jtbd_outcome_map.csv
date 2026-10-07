@@ -1,0 +1,5 @@
+workflow_stage,customer_goal,ticket_issue,impact_on_user,engineering_fix
+Data Connection,Connect CRM and external pipeline data automatically,Integration with Salesforce failing / API 500 error,Blocked at onboarding; unable to load pipeline deals,Build self-healing Salesforce sync connector with auto-retry
+Dashboard Visualization,Load and interact with KPI charts quickly,UI not loading correctly on dashboard / Slow page load times,High frustration and delayed executive decision-making,Optimize dashboard query caching and index database keys
+Team Collaboration,Share reliable pipeline views across the department,Data sync delay between systems / UI misalignment on Chrome,Colleagues see conflicting numbers and broken layouts,Deploy real-time sync hooks and standardize cross-browser layout
+Account Upgrades,Upgrade trial account to paid tier seamlessly,Trial upgrade not processing,Blocked from paying; account locked out of platform,Implement automated payment verification with secondary gateway fallback

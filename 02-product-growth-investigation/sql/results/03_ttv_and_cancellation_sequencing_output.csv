@@ -1,0 +1,4 @@
+stage,total_deals,deals_with_support_friction,support_attachment_pct,avg_resolution_time_hours,high_priority_ticket_pct,avg_warning_lead_time_days
+Negotiation,31,12,38.71,-396.0,21.43,28.0
+Closed Lost,31,12,38.71,1352.0,30.77,22.7
+Closed Won,23,11,47.83,504.0,16.67,25.4

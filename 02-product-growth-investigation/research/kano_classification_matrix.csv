@@ -1,0 +1,6 @@
+feature_name,kano_category,target_customer_tier,economic_arr_weight_usd,satisfaction_impact,strategic_decision
+Salesforce Integration Auto-Retry,Must-Have (Basic Threshold),Enterprise & Mid-Market,1840000,Eliminates primary driver of silent deal loss and customer churn,PRIORITY 1 SPRINT (Must-Have Table Stakes)
+Backend API 500 Error Fix,Must-Have (Basic Threshold),Enterprise & Mid-Market,1420000,Prevents data corruption during executive dashboard sync,PRIORITY 1 SPRINT (Must-Have Table Stakes)
+Dashboard Query Load Speed Optimization,Performance (Linear),All Tiers (SMB to Enterprise),980000,Increases daily active user session duration linearly,PRIORITY 2 SPRINT (Performance Optimization)
+Automated Weekly Slack Metric Digest,Delighter (Attractive),Mid-Market & Enterprise,450000,Creates unprompted team habit loops and organic internal referrals,SPRINT 3 ROADMAP (Delighter)
+Feature X: Custom Themes and Color Palettes,Indifferent (Low commercial priority),Free Tier & Starter SMB,9744,No meaningful link to enterprise contract retention or ARR growth,DEFER / REMOVE FROM NEAR-TERM ROADMAP

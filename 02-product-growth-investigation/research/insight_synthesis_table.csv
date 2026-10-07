@@ -1,0 +1,5 @@
+strategic_theme,ticket_frequency,affected_companies,total_economic_revenue_weight,triangulation_quadrant,strategic_action
+4. COSMETIC_MINOR_DEFECTS,327,38,3210505827.53,Quadrant 4: Lower-priority operational friction,DEFER / REVIEW
+3. COMMERCIAL_BILLING_CHECKOUT,44,13,767693601.98,"Quadrant 2: The Vocal Trap (High volume, low revenue contribution)",REPACKAGING / AUTOMATION (Self-Serve Flow)
+2. PLATFORM_PERFORMANCE_RELIABILITY,58,9,534497269.62,Quadrant 1: Core Strength / Core Fix (High revenue & high volume),PRIORITY 2 SPRINT (Performance Optimization)
+1. CRITICAL_DATA_INTEGRATION,71,7,405762608.7,"Quadrant 3: Under-reported risk (High revenue impact, low vocal complaint)",PRIORITY 1 SPRINT (Must-Have Table Stakes)

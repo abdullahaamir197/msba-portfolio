@@ -1,0 +1,5 @@
+initiative_name,reach_accounts,impact_score,confidence_score,effort_person_months,rice_score,priority_rank,strategic_decision
+Automated 4-Hour Priority SLA Queue,50,2.0,1.0,0.5,200.0,Rank 1,SPRINT 1 IMMEDIATE QUICK WIN
+Salesforce Sync Auto-Retry,45,3.0,1.0,1.0,135.0,Rank 2,SPRINT 2 CORE MUST-HAVE
+Dashboard Query Performance Optimization,50,1.0,0.8,1.0,40.0,Rank 3,SPRINT 3 PERFORMANCE BACKLOG
+Feature X: Custom Themes and Color Palettes,0,0.5,0.5,2.0,0.0,Rank 4,DEFER / REMOVE FROM NEAR-TERM ROADMAP

@@ -1,0 +1,501 @@
+ticket_id,company_id,company_name,industry,company_annual_revenue,priority,status,verbatim_customer_quote,first_order_code,second_order_strategic_theme
+137,44,Bennett and Sons,E-commerce,98610379.29,Low,Closed,Two-factor authentication setup failing,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+52,22,Lara-Peters,Fintech,95143105.32,Medium,In Progress,Broken link in help center,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+120,41,"Hughes, Jackson and Mills",EdTech,93848650.78,Low,In Progress,UI not loading correctly on dashboard,DASHBOARD_RENDER_FAILURE,2. PLATFORM_PERFORMANCE_RELIABILITY
+430,41,"Hughes, Jackson and Mills",EdTech,93848650.78,Low,Open,Notification emails not being sent,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+132,4,"Harding, Johnson and Randall",Healthcare,91968947.72,Low,Closed,Mobile app crashes on login,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+240,4,"Harding, Johnson and Randall",Healthcare,91968947.72,Medium,Open,UI misalignment on Chrome,COSMETIC_UI_DEFECT,4. COSMETIC_MINOR_DEFECTS
+418,11,Green PLC,Healthcare,90503930.48,Medium,Open,Trial upgrade not processing,BILLING_UPGRADE_FRICTION,3. COMMERCIAL_BILLING_CHECKOUT
+432,11,Green PLC,Healthcare,90503930.48,High,Closed,Invoice not generating correctly,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+347,39,Lindsey Inc,E-commerce,90038223.5,Low,In Progress,Trial upgrade not processing,BILLING_UPGRADE_FRICTION,3. COMMERCIAL_BILLING_CHECKOUT
+428,39,Lindsey Inc,E-commerce,90038223.5,Medium,New,Error exporting reports,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+331,9,Blair LLC,SaaS,88910046.99,Medium,Closed,Account deactivated unexpectedly,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+358,9,Blair LLC,SaaS,88910046.99,Low,Closed,Trial upgrade not processing,BILLING_UPGRADE_FRICTION,3. COMMERCIAL_BILLING_CHECKOUT
+169,1,Phillips-Garrett,Healthcare,87969676.99,High,Closed,API request returning 500 error,BACKEND_API_500_ERROR,1. CRITICAL_DATA_INTEGRATION
+293,1,Phillips-Garrett,Healthcare,87969676.99,High,New,Duplicate records in database,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+389,1,Phillips-Garrett,Healthcare,87969676.99,Medium,Open,Error exporting reports,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+258,24,Phillips LLC,E-commerce,87736678.07,Low,In Progress,Trial upgrade not processing,BILLING_UPGRADE_FRICTION,3. COMMERCIAL_BILLING_CHECKOUT
+10,25,Mata Ltd,SaaS,85107250.07,Low,New,API request returning 500 error,BACKEND_API_500_ERROR,1. CRITICAL_DATA_INTEGRATION
+73,25,Mata Ltd,SaaS,85107250.07,Medium,On Hold,Trial upgrade not processing,BILLING_UPGRADE_FRICTION,3. COMMERCIAL_BILLING_CHECKOUT
+251,25,Mata Ltd,SaaS,85107250.07,Low,In Progress,Account deactivated unexpectedly,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+404,25,Mata Ltd,SaaS,85107250.07,Medium,New,Email sync not working,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+427,25,Mata Ltd,SaaS,85107250.07,High,New,UI not loading correctly on dashboard,DASHBOARD_RENDER_FAILURE,2. PLATFORM_PERFORMANCE_RELIABILITY
+138,13,Kelly-Mckee,E-commerce,83032049.44,High,Closed,Account deactivated unexpectedly,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+107,7,Reilly and Sons,EdTech,76329849.11,High,New,Trial upgrade not processing,BILLING_UPGRADE_FRICTION,3. COMMERCIAL_BILLING_CHECKOUT
+296,7,Reilly and Sons,EdTech,76329849.11,Low,Closed,Two-factor authentication setup failing,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+327,16,Lamb and Sons,SaaS,76223496.52,High,In Progress,Account deactivated unexpectedly,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+345,16,Lamb and Sons,SaaS,76223496.52,Medium,Closed,UI not loading correctly on dashboard,DASHBOARD_RENDER_FAILURE,2. PLATFORM_PERFORMANCE_RELIABILITY
+417,16,Lamb and Sons,SaaS,76223496.52,Medium,New,UI misalignment on Chrome,COSMETIC_UI_DEFECT,4. COSMETIC_MINOR_DEFECTS
+500,16,Lamb and Sons,SaaS,76223496.52,Low,In Progress,Workflow automation not triggering,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+123,27,Arias Ltd,E-commerce,73675871.71,Medium,On Hold,Broken link in help center,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+373,27,Arias Ltd,E-commerce,73675871.71,High,In Progress,UI misalignment on Chrome,COSMETIC_UI_DEFECT,4. COSMETIC_MINOR_DEFECTS
+13,15,Chavez PLC,EdTech,73591637.73,Low,New,Duplicate records in database,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+139,15,Chavez PLC,EdTech,73591637.73,Low,Closed,Custom field not saving properly,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+407,15,Chavez PLC,EdTech,73591637.73,High,On Hold,UI not loading correctly on dashboard,DASHBOARD_RENDER_FAILURE,2. PLATFORM_PERFORMANCE_RELIABILITY
+66,14,Alvarez-Duffy,E-commerce,68682561.56,Low,Open,UI misalignment on Chrome,COSMETIC_UI_DEFECT,4. COSMETIC_MINOR_DEFECTS
+204,14,Alvarez-Duffy,E-commerce,68682561.56,Low,Closed,Trial upgrade not processing,BILLING_UPGRADE_FRICTION,3. COMMERCIAL_BILLING_CHECKOUT
+378,48,Henderson LLC,SaaS,68349131.81,High,Open,Trial upgrade not processing,BILLING_UPGRADE_FRICTION,3. COMMERCIAL_BILLING_CHECKOUT
+364,40,James-Banks,EdTech,63635086.14,Low,New,Broken link in help center,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+28,34,"Alvarez, Myers and Cruz",Healthcare,59947430.2,Low,Closed,Two-factor authentication setup failing,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+184,8,Yoder Group,Healthcare,58549688.43,Medium,New,Invoice not generating correctly,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+395,8,Yoder Group,Healthcare,58549688.43,Medium,On Hold,Error exporting reports,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+236,10,"Harris, Fitzpatrick and Lawrence",EdTech,58207752.57,Medium,Open,Email sync not working,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+440,10,"Harris, Fitzpatrick and Lawrence",EdTech,58207752.57,Low,On Hold,Workflow automation not triggering,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+95,3,"Garcia, Gonzales and Hernandez",SaaS,57848632.71,Low,Open,Integration with Salesforce failing,INTEGRATION_SALESFORCE_FAILURE,1. CRITICAL_DATA_INTEGRATION
+263,3,"Garcia, Gonzales and Hernandez",SaaS,57848632.71,High,On Hold,Duplicate records in database,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+265,3,"Garcia, Gonzales and Hernandez",SaaS,57848632.71,High,On Hold,API request returning 500 error,BACKEND_API_500_ERROR,1. CRITICAL_DATA_INTEGRATION
+341,3,"Garcia, Gonzales and Hernandez",SaaS,57848632.71,Medium,In Progress,UI misalignment on Chrome,COSMETIC_UI_DEFECT,4. COSMETIC_MINOR_DEFECTS
+216,35,Carlson-Henry,Fintech,56183706.02,Low,New,Unable to log in with SSO,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+231,37,Howell Ltd,SaaS,52559511.36,High,On Hold,Permissions not updating for new user,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+103,47,Moreno PLC,EdTech,52006800.94,High,New,API request returning 500 error,BACKEND_API_500_ERROR,1. CRITICAL_DATA_INTEGRATION
+187,47,Moreno PLC,EdTech,52006800.94,Medium,Closed,Account deactivated unexpectedly,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+482,47,Moreno PLC,EdTech,52006800.94,High,On Hold,Custom field not saving properly,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+1,49,"Mckee, Mathews and Rodriguez",SaaS,51462232.04,Medium,In Progress,Permissions not updating for new user,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+201,49,"Mckee, Mathews and Rodriguez",SaaS,51462232.04,High,New,Notification emails not being sent,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+91,33,Fleming LLC,Fintech,43033424.43,Low,On Hold,Unable to log in with SSO,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+27,30,Porter Group,SaaS,42979793.11,High,New,UI not loading correctly on dashboard,DASHBOARD_RENDER_FAILURE,2. PLATFORM_PERFORMANCE_RELIABILITY
+459,30,Porter Group,SaaS,42979793.11,High,Closed,Workflow automation not triggering,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+494,30,Porter Group,SaaS,42979793.11,Medium,New,Slow page load times in app,APP_PERFORMANCE_LATENCY,2. PLATFORM_PERFORMANCE_RELIABILITY
+443,38,Buck Group,Fintech,40901316.92,Medium,Open,Mobile app crashes on login,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+64,20,Scott-Bartlett,EdTech,40104226.9,High,In Progress,Two-factor authentication setup failing,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+143,20,Scott-Bartlett,EdTech,40104226.9,Low,Closed,Custom field not saving properly,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+161,20,Scott-Bartlett,EdTech,40104226.9,High,In Progress,Permissions not updating for new user,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+46,2,Murphy-Stewart,EdTech,39883912.84,High,On Hold,Workflow automation not triggering,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+239,28,Harris-Levy,SaaS,37139777.38,Low,In Progress,Trial upgrade not processing,BILLING_UPGRADE_FRICTION,3. COMMERCIAL_BILLING_CHECKOUT
+330,28,Harris-Levy,SaaS,37139777.38,Low,Open,Unable to log in with SSO,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+275,42,"Lee, Foster and Ross",E-commerce,32859262.72,High,In Progress,API request returning 500 error,BACKEND_API_500_ERROR,1. CRITICAL_DATA_INTEGRATION
+282,42,"Lee, Foster and Ross",E-commerce,32859262.72,Medium,On Hold,Two-factor authentication setup failing,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+338,42,"Lee, Foster and Ross",E-commerce,32859262.72,High,New,Notification emails not being sent,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+489,42,"Lee, Foster and Ross",E-commerce,32859262.72,Low,Closed,Email sync not working,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+471,6,Sellers-Monroe,E-commerce,30817516.14,Medium,Closed,Slow page load times in app,APP_PERFORMANCE_LATENCY,2. PLATFORM_PERFORMANCE_RELIABILITY
+50,43,"Duncan, Fischer and Ramsey",EdTech,30078507.17,High,Open,UI not loading correctly on dashboard,DASHBOARD_RENDER_FAILURE,2. PLATFORM_PERFORMANCE_RELIABILITY
+385,43,"Duncan, Fischer and Ramsey",EdTech,30078507.17,Medium,New,Email sync not working,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+399,43,"Duncan, Fischer and Ramsey",EdTech,30078507.17,Low,On Hold,Trial upgrade not processing,BILLING_UPGRADE_FRICTION,3. COMMERCIAL_BILLING_CHECKOUT
+192,36,King-Davis,Healthcare,29661433.15,Low,Open,Slow page load times in app,APP_PERFORMANCE_LATENCY,2. PLATFORM_PERFORMANCE_RELIABILITY
+134,29,"Chang, Schmidt and Burnett",E-commerce,29209191.84,High,Closed,Slow page load times in app,APP_PERFORMANCE_LATENCY,2. PLATFORM_PERFORMANCE_RELIABILITY
+67,31,Melendez-Johnson,E-commerce,27494136.74,Low,On Hold,Custom field not saving properly,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+361,17,"Wright, Garza and Acosta",Healthcare,23148884.75,Medium,New,Workflow automation not triggering,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+403,17,"Wright, Garza and Acosta",Healthcare,23148884.75,Low,On Hold,Trial upgrade not processing,BILLING_UPGRADE_FRICTION,3. COMMERCIAL_BILLING_CHECKOUT
+63,21,Hicks-Dixon,Healthcare,23108602.45,Medium,On Hold,Account deactivated unexpectedly,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+144,21,Hicks-Dixon,Healthcare,23108602.45,Low,Closed,Notification emails not being sent,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+355,21,Hicks-Dixon,Healthcare,23108602.45,Low,Closed,API request returning 500 error,BACKEND_API_500_ERROR,1. CRITICAL_DATA_INTEGRATION
+24,32,Sanchez-Gould,Healthcare,20195652.31,Medium,In Progress,Trial upgrade not processing,BILLING_UPGRADE_FRICTION,3. COMMERCIAL_BILLING_CHECKOUT
+244,12,Castro and Sons,SaaS,14365789.86,Medium,On Hold,Two-factor authentication setup failing,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+198,5,"Small, Luna and Bonilla",Fintech,9013750.11,Medium,In Progress,Workflow automation not triggering,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+207,5,"Small, Luna and Bonilla",Fintech,9013750.11,High,Closed,API request returning 500 error,BACKEND_API_500_ERROR,1. CRITICAL_DATA_INTEGRATION
+241,5,"Small, Luna and Bonilla",Fintech,9013750.11,Low,In Progress,Two-factor authentication setup failing,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+100,26,Nixon Inc,EdTech,1473108.78,Medium,Open,Duplicate records in database,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+153,26,Nixon Inc,EdTech,1473108.78,Low,On Hold,Trial upgrade not processing,BILLING_UPGRADE_FRICTION,3. COMMERCIAL_BILLING_CHECKOUT
+2,,,,,Low,On Hold,UI misalignment on Chrome,COSMETIC_UI_DEFECT,4. COSMETIC_MINOR_DEFECTS
+3,,,,,High,In Progress,Permissions not updating for new user,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+4,,,,,Low,In Progress,Unable to log in with SSO,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+5,,,,,Low,Open,Workflow automation not triggering,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+6,,,,,Medium,On Hold,API request returning 500 error,BACKEND_API_500_ERROR,1. CRITICAL_DATA_INTEGRATION
+7,,,,,High,New,Broken link in help center,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+8,,,,,High,On Hold,API request returning 500 error,BACKEND_API_500_ERROR,1. CRITICAL_DATA_INTEGRATION
+9,,,,,Low,On Hold,Slow page load times in app,APP_PERFORMANCE_LATENCY,2. PLATFORM_PERFORMANCE_RELIABILITY
+11,,,,,High,In Progress,Slow page load times in app,APP_PERFORMANCE_LATENCY,2. PLATFORM_PERFORMANCE_RELIABILITY
+12,,,,,Low,In Progress,Data sync delay between systems,DATA_SYNC_LATENCY,1. CRITICAL_DATA_INTEGRATION
+14,,,,,Medium,In Progress,Notification emails not being sent,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+15,,,,,Medium,New,Unable to log in with SSO,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+16,,,,,High,New,Duplicate records in database,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+17,,,,,High,New,Data sync delay between systems,DATA_SYNC_LATENCY,1. CRITICAL_DATA_INTEGRATION
+18,,,,,Low,In Progress,Integration with Salesforce failing,INTEGRATION_SALESFORCE_FAILURE,1. CRITICAL_DATA_INTEGRATION
+19,,,,,High,Open,Invoice not generating correctly,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+20,,,,,Low,In Progress,Permissions not updating for new user,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+21,,,,,Low,New,Workflow automation not triggering,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+22,,,,,High,Closed,Integration with Salesforce failing,INTEGRATION_SALESFORCE_FAILURE,1. CRITICAL_DATA_INTEGRATION
+23,,,,,High,In Progress,Integration with Salesforce failing,INTEGRATION_SALESFORCE_FAILURE,1. CRITICAL_DATA_INTEGRATION
+25,,,,,Medium,New,Duplicate records in database,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+26,,,,,High,Closed,Data sync delay between systems,DATA_SYNC_LATENCY,1. CRITICAL_DATA_INTEGRATION
+29,,,,,Medium,On Hold,Integration with Salesforce failing,INTEGRATION_SALESFORCE_FAILURE,1. CRITICAL_DATA_INTEGRATION
+30,,,,,Low,Open,Broken link in help center,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+31,,,,,Low,In Progress,UI misalignment on Chrome,COSMETIC_UI_DEFECT,4. COSMETIC_MINOR_DEFECTS
+32,,,,,High,Open,Permissions not updating for new user,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+33,,,,,High,Closed,Trial upgrade not processing,BILLING_UPGRADE_FRICTION,3. COMMERCIAL_BILLING_CHECKOUT
+34,,,,,Medium,Open,Two-factor authentication setup failing,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+35,,,,,Medium,Open,Two-factor authentication setup failing,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+36,,,,,High,In Progress,Integration with Salesforce failing,INTEGRATION_SALESFORCE_FAILURE,1. CRITICAL_DATA_INTEGRATION
+37,,,,,High,Closed,Notification emails not being sent,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+38,,,,,Medium,New,Duplicate records in database,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+39,,,,,Medium,Open,UI not loading correctly on dashboard,DASHBOARD_RENDER_FAILURE,2. PLATFORM_PERFORMANCE_RELIABILITY
+40,,,,,Low,Closed,Notification emails not being sent,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+41,,,,,Low,Closed,Integration with Salesforce failing,INTEGRATION_SALESFORCE_FAILURE,1. CRITICAL_DATA_INTEGRATION
+42,,,,,Low,Closed,Broken link in help center,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+43,,,,,High,Closed,Trial upgrade not processing,BILLING_UPGRADE_FRICTION,3. COMMERCIAL_BILLING_CHECKOUT
+44,,,,,Low,On Hold,Data sync delay between systems,DATA_SYNC_LATENCY,1. CRITICAL_DATA_INTEGRATION
+45,,,,,High,New,Unable to log in with SSO,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+47,,,,,Low,In Progress,Unable to log in with SSO,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+48,,,,,Low,Open,Invoice not generating correctly,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+49,,,,,High,Open,Account deactivated unexpectedly,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+51,,,,,Medium,In Progress,Slow page load times in app,APP_PERFORMANCE_LATENCY,2. PLATFORM_PERFORMANCE_RELIABILITY
+53,,,,,High,Closed,Custom field not saving properly,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+54,,,,,High,Open,Slow page load times in app,APP_PERFORMANCE_LATENCY,2. PLATFORM_PERFORMANCE_RELIABILITY
+55,,,,,Low,Open,Slow page load times in app,APP_PERFORMANCE_LATENCY,2. PLATFORM_PERFORMANCE_RELIABILITY
+56,,,,,Medium,Open,Trial upgrade not processing,BILLING_UPGRADE_FRICTION,3. COMMERCIAL_BILLING_CHECKOUT
+57,,,,,Medium,In Progress,Custom field not saving properly,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+58,,,,,Low,Open,UI misalignment on Chrome,COSMETIC_UI_DEFECT,4. COSMETIC_MINOR_DEFECTS
+59,,,,,Low,Closed,Trial upgrade not processing,BILLING_UPGRADE_FRICTION,3. COMMERCIAL_BILLING_CHECKOUT
+60,,,,,Low,On Hold,Slow page load times in app,APP_PERFORMANCE_LATENCY,2. PLATFORM_PERFORMANCE_RELIABILITY
+61,,,,,High,Open,Unable to log in with SSO,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+62,,,,,High,New,API request returning 500 error,BACKEND_API_500_ERROR,1. CRITICAL_DATA_INTEGRATION
+65,,,,,Medium,On Hold,Broken link in help center,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+68,,,,,Low,New,Invoice not generating correctly,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+69,,,,,Medium,On Hold,Mobile app crashes on login,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+70,,,,,Low,On Hold,Two-factor authentication setup failing,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+71,,,,,Low,In Progress,UI not loading correctly on dashboard,DASHBOARD_RENDER_FAILURE,2. PLATFORM_PERFORMANCE_RELIABILITY
+72,,,,,Low,Closed,API request returning 500 error,BACKEND_API_500_ERROR,1. CRITICAL_DATA_INTEGRATION
+74,,,,,Low,On Hold,Two-factor authentication setup failing,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+75,,,,,High,In Progress,UI misalignment on Chrome,COSMETIC_UI_DEFECT,4. COSMETIC_MINOR_DEFECTS
+76,,,,,Low,Closed,Custom field not saving properly,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+77,,,,,High,On Hold,Account deactivated unexpectedly,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+78,,,,,High,New,Two-factor authentication setup failing,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+79,,,,,High,In Progress,Notification emails not being sent,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+80,,,,,Low,Closed,Mobile app crashes on login,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+81,,,,,Low,On Hold,Trial upgrade not processing,BILLING_UPGRADE_FRICTION,3. COMMERCIAL_BILLING_CHECKOUT
+82,,,,,High,Open,Broken link in help center,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+83,,,,,Low,New,Broken link in help center,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+84,,,,,High,Open,API request returning 500 error,BACKEND_API_500_ERROR,1. CRITICAL_DATA_INTEGRATION
+85,,,,,High,In Progress,API request returning 500 error,BACKEND_API_500_ERROR,1. CRITICAL_DATA_INTEGRATION
+86,,,,,Medium,New,Unable to log in with SSO,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+87,,,,,High,New,Data sync delay between systems,DATA_SYNC_LATENCY,1. CRITICAL_DATA_INTEGRATION
+88,,,,,Low,Open,Trial upgrade not processing,BILLING_UPGRADE_FRICTION,3. COMMERCIAL_BILLING_CHECKOUT
+89,,,,,Medium,In Progress,Slow page load times in app,APP_PERFORMANCE_LATENCY,2. PLATFORM_PERFORMANCE_RELIABILITY
+90,,,,,High,Open,Invoice not generating correctly,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+92,,,,,Low,Closed,Trial upgrade not processing,BILLING_UPGRADE_FRICTION,3. COMMERCIAL_BILLING_CHECKOUT
+93,,,,,Low,In Progress,Trial upgrade not processing,BILLING_UPGRADE_FRICTION,3. COMMERCIAL_BILLING_CHECKOUT
+94,,,,,Medium,On Hold,API request returning 500 error,BACKEND_API_500_ERROR,1. CRITICAL_DATA_INTEGRATION
+96,,,,,Low,Closed,Workflow automation not triggering,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+97,,,,,High,In Progress,Unable to log in with SSO,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+98,,,,,High,In Progress,Notification emails not being sent,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+99,,,,,Low,New,Error exporting reports,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+101,,,,,Medium,Open,Account deactivated unexpectedly,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+102,,,,,Medium,Open,Slow page load times in app,APP_PERFORMANCE_LATENCY,2. PLATFORM_PERFORMANCE_RELIABILITY
+104,,,,,High,New,Trial upgrade not processing,BILLING_UPGRADE_FRICTION,3. COMMERCIAL_BILLING_CHECKOUT
+105,,,,,Low,On Hold,Two-factor authentication setup failing,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+106,,,,,Medium,In Progress,Notification emails not being sent,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+108,,,,,Low,On Hold,UI not loading correctly on dashboard,DASHBOARD_RENDER_FAILURE,2. PLATFORM_PERFORMANCE_RELIABILITY
+109,,,,,Medium,Open,Mobile app crashes on login,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+110,,,,,Medium,New,Account deactivated unexpectedly,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+111,,,,,Medium,On Hold,Error exporting reports,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+112,,,,,Medium,On Hold,Email sync not working,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+113,,,,,High,In Progress,UI not loading correctly on dashboard,DASHBOARD_RENDER_FAILURE,2. PLATFORM_PERFORMANCE_RELIABILITY
+114,,,,,Medium,On Hold,Mobile app crashes on login,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+115,,,,,Low,Open,Custom field not saving properly,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+116,,,,,Low,Open,Permissions not updating for new user,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+117,,,,,High,Closed,Integration with Salesforce failing,INTEGRATION_SALESFORCE_FAILURE,1. CRITICAL_DATA_INTEGRATION
+118,,,,,Low,New,Notification emails not being sent,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+119,,,,,Low,New,Unable to log in with SSO,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+121,,,,,Low,Open,Broken link in help center,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+122,,,,,High,Closed,UI not loading correctly on dashboard,DASHBOARD_RENDER_FAILURE,2. PLATFORM_PERFORMANCE_RELIABILITY
+124,,,,,Medium,New,Mobile app crashes on login,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+125,,,,,Low,On Hold,UI misalignment on Chrome,COSMETIC_UI_DEFECT,4. COSMETIC_MINOR_DEFECTS
+126,,,,,Medium,Open,Workflow automation not triggering,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+127,,,,,Medium,Closed,Workflow automation not triggering,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+128,,,,,Low,Open,Invoice not generating correctly,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+129,,,,,Medium,On Hold,Broken link in help center,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+130,,,,,Low,Open,Broken link in help center,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+131,,,,,Low,New,Permissions not updating for new user,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+133,,,,,High,Open,UI not loading correctly on dashboard,DASHBOARD_RENDER_FAILURE,2. PLATFORM_PERFORMANCE_RELIABILITY
+135,,,,,High,On Hold,Invoice not generating correctly,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+136,,,,,High,Open,Mobile app crashes on login,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+140,,,,,High,On Hold,Mobile app crashes on login,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+141,,,,,High,Closed,Two-factor authentication setup failing,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+142,,,,,Medium,In Progress,API request returning 500 error,BACKEND_API_500_ERROR,1. CRITICAL_DATA_INTEGRATION
+145,,,,,Low,New,Duplicate records in database,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+146,,,,,High,Closed,Integration with Salesforce failing,INTEGRATION_SALESFORCE_FAILURE,1. CRITICAL_DATA_INTEGRATION
+147,,,,,High,Open,UI misalignment on Chrome,COSMETIC_UI_DEFECT,4. COSMETIC_MINOR_DEFECTS
+148,,,,,High,Closed,Mobile app crashes on login,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+149,,,,,Medium,On Hold,Invoice not generating correctly,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+150,,,,,Medium,Closed,Broken link in help center,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+151,,,,,High,Closed,Workflow automation not triggering,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+152,,,,,Low,On Hold,Trial upgrade not processing,BILLING_UPGRADE_FRICTION,3. COMMERCIAL_BILLING_CHECKOUT
+154,,,,,Low,On Hold,UI misalignment on Chrome,COSMETIC_UI_DEFECT,4. COSMETIC_MINOR_DEFECTS
+155,,,,,Low,In Progress,Mobile app crashes on login,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+156,,,,,Low,On Hold,UI misalignment on Chrome,COSMETIC_UI_DEFECT,4. COSMETIC_MINOR_DEFECTS
+157,,,,,Low,In Progress,Data sync delay between systems,DATA_SYNC_LATENCY,1. CRITICAL_DATA_INTEGRATION
+158,,,,,Low,New,Error exporting reports,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+159,,,,,High,New,Account deactivated unexpectedly,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+160,,,,,Medium,On Hold,Trial upgrade not processing,BILLING_UPGRADE_FRICTION,3. COMMERCIAL_BILLING_CHECKOUT
+162,,,,,Medium,Closed,Slow page load times in app,APP_PERFORMANCE_LATENCY,2. PLATFORM_PERFORMANCE_RELIABILITY
+163,,,,,Low,Open,Notification emails not being sent,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+164,,,,,High,Open,Trial upgrade not processing,BILLING_UPGRADE_FRICTION,3. COMMERCIAL_BILLING_CHECKOUT
+165,,,,,Medium,Closed,Trial upgrade not processing,BILLING_UPGRADE_FRICTION,3. COMMERCIAL_BILLING_CHECKOUT
+166,,,,,High,Open,Broken link in help center,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+167,,,,,Medium,On Hold,Trial upgrade not processing,BILLING_UPGRADE_FRICTION,3. COMMERCIAL_BILLING_CHECKOUT
+168,,,,,High,Open,Trial upgrade not processing,BILLING_UPGRADE_FRICTION,3. COMMERCIAL_BILLING_CHECKOUT
+170,,,,,High,On Hold,Data sync delay between systems,DATA_SYNC_LATENCY,1. CRITICAL_DATA_INTEGRATION
+171,,,,,Medium,Open,Permissions not updating for new user,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+172,,,,,Low,Closed,Custom field not saving properly,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+173,,,,,Low,New,Workflow automation not triggering,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+174,,,,,Low,New,UI misalignment on Chrome,COSMETIC_UI_DEFECT,4. COSMETIC_MINOR_DEFECTS
+175,,,,,Medium,On Hold,Workflow automation not triggering,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+176,,,,,Low,Closed,Trial upgrade not processing,BILLING_UPGRADE_FRICTION,3. COMMERCIAL_BILLING_CHECKOUT
+177,,,,,Medium,In Progress,Permissions not updating for new user,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+178,,,,,Medium,Closed,Mobile app crashes on login,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+179,,,,,Low,On Hold,Trial upgrade not processing,BILLING_UPGRADE_FRICTION,3. COMMERCIAL_BILLING_CHECKOUT
+180,,,,,High,In Progress,UI misalignment on Chrome,COSMETIC_UI_DEFECT,4. COSMETIC_MINOR_DEFECTS
+181,,,,,Medium,Closed,Error exporting reports,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+182,,,,,High,Closed,UI not loading correctly on dashboard,DASHBOARD_RENDER_FAILURE,2. PLATFORM_PERFORMANCE_RELIABILITY
+183,,,,,High,Closed,Mobile app crashes on login,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+185,,,,,High,Closed,Notification emails not being sent,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+186,,,,,Medium,On Hold,Broken link in help center,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+188,,,,,Low,In Progress,Error exporting reports,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+189,,,,,High,On Hold,UI not loading correctly on dashboard,DASHBOARD_RENDER_FAILURE,2. PLATFORM_PERFORMANCE_RELIABILITY
+190,,,,,Low,In Progress,Data sync delay between systems,DATA_SYNC_LATENCY,1. CRITICAL_DATA_INTEGRATION
+191,,,,,Low,New,Error exporting reports,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+193,,,,,High,Open,Mobile app crashes on login,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+194,,,,,High,Closed,Two-factor authentication setup failing,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+195,,,,,Low,New,Notification emails not being sent,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+196,,,,,Low,New,Unable to log in with SSO,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+197,,,,,Low,In Progress,Error exporting reports,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+199,,,,,Low,New,Data sync delay between systems,DATA_SYNC_LATENCY,1. CRITICAL_DATA_INTEGRATION
+200,,,,,Medium,On Hold,Mobile app crashes on login,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+202,,,,,Low,New,Unable to log in with SSO,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+203,,,,,High,New,Unable to log in with SSO,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+205,,,,,Low,On Hold,Unable to log in with SSO,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+206,,,,,Medium,Closed,Trial upgrade not processing,BILLING_UPGRADE_FRICTION,3. COMMERCIAL_BILLING_CHECKOUT
+208,,,,,Low,In Progress,Permissions not updating for new user,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+209,,,,,Medium,On Hold,Slow page load times in app,APP_PERFORMANCE_LATENCY,2. PLATFORM_PERFORMANCE_RELIABILITY
+210,,,,,Medium,New,Error exporting reports,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+211,,,,,Medium,In Progress,Data sync delay between systems,DATA_SYNC_LATENCY,1. CRITICAL_DATA_INTEGRATION
+212,,,,,High,Closed,Unable to log in with SSO,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+213,,,,,Low,Closed,Workflow automation not triggering,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+214,,,,,Medium,New,API request returning 500 error,BACKEND_API_500_ERROR,1. CRITICAL_DATA_INTEGRATION
+215,,,,,Low,In Progress,Data sync delay between systems,DATA_SYNC_LATENCY,1. CRITICAL_DATA_INTEGRATION
+217,,,,,Low,Closed,Permissions not updating for new user,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+218,,,,,Low,New,Mobile app crashes on login,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+219,,,,,Low,New,Invoice not generating correctly,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+220,,,,,Medium,In Progress,Integration with Salesforce failing,INTEGRATION_SALESFORCE_FAILURE,1. CRITICAL_DATA_INTEGRATION
+221,,,,,Low,Closed,Permissions not updating for new user,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+222,,,,,Medium,On Hold,UI misalignment on Chrome,COSMETIC_UI_DEFECT,4. COSMETIC_MINOR_DEFECTS
+223,,,,,Medium,Closed,UI not loading correctly on dashboard,DASHBOARD_RENDER_FAILURE,2. PLATFORM_PERFORMANCE_RELIABILITY
+224,,,,,Low,Open,Email sync not working,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+225,,,,,High,New,Integration with Salesforce failing,INTEGRATION_SALESFORCE_FAILURE,1. CRITICAL_DATA_INTEGRATION
+226,,,,,Low,In Progress,UI not loading correctly on dashboard,DASHBOARD_RENDER_FAILURE,2. PLATFORM_PERFORMANCE_RELIABILITY
+227,,,,,Medium,New,Account deactivated unexpectedly,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+228,,,,,High,Closed,Integration with Salesforce failing,INTEGRATION_SALESFORCE_FAILURE,1. CRITICAL_DATA_INTEGRATION
+229,,,,,High,Open,Integration with Salesforce failing,INTEGRATION_SALESFORCE_FAILURE,1. CRITICAL_DATA_INTEGRATION
+230,,,,,High,New,Trial upgrade not processing,BILLING_UPGRADE_FRICTION,3. COMMERCIAL_BILLING_CHECKOUT
+232,,,,,Low,In Progress,Workflow automation not triggering,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+233,,,,,Medium,In Progress,Custom field not saving properly,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+234,,,,,High,Open,UI misalignment on Chrome,COSMETIC_UI_DEFECT,4. COSMETIC_MINOR_DEFECTS
+235,,,,,Medium,Open,Error exporting reports,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+237,,,,,Medium,On Hold,Email sync not working,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+238,,,,,Low,Closed,Two-factor authentication setup failing,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+242,,,,,Medium,On Hold,Slow page load times in app,APP_PERFORMANCE_LATENCY,2. PLATFORM_PERFORMANCE_RELIABILITY
+243,,,,,Low,In Progress,Email sync not working,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+245,,,,,Low,Open,Workflow automation not triggering,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+246,,,,,Medium,Closed,UI not loading correctly on dashboard,DASHBOARD_RENDER_FAILURE,2. PLATFORM_PERFORMANCE_RELIABILITY
+247,,,,,Medium,New,Trial upgrade not processing,BILLING_UPGRADE_FRICTION,3. COMMERCIAL_BILLING_CHECKOUT
+248,,,,,Medium,In Progress,Account deactivated unexpectedly,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+249,,,,,Medium,Open,Invoice not generating correctly,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+250,,,,,High,New,Invoice not generating correctly,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+252,,,,,Low,Closed,Notification emails not being sent,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+253,,,,,Low,On Hold,Data sync delay between systems,DATA_SYNC_LATENCY,1. CRITICAL_DATA_INTEGRATION
+254,,,,,High,Closed,Trial upgrade not processing,BILLING_UPGRADE_FRICTION,3. COMMERCIAL_BILLING_CHECKOUT
+255,,,,,Medium,Open,Integration with Salesforce failing,INTEGRATION_SALESFORCE_FAILURE,1. CRITICAL_DATA_INTEGRATION
+256,,,,,High,New,Unable to log in with SSO,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+257,,,,,High,Open,Integration with Salesforce failing,INTEGRATION_SALESFORCE_FAILURE,1. CRITICAL_DATA_INTEGRATION
+259,,,,,High,On Hold,Slow page load times in app,APP_PERFORMANCE_LATENCY,2. PLATFORM_PERFORMANCE_RELIABILITY
+260,,,,,Medium,New,Notification emails not being sent,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+261,,,,,Low,New,Duplicate records in database,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+262,,,,,Medium,Closed,Notification emails not being sent,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+264,,,,,High,In Progress,Notification emails not being sent,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+266,,,,,High,On Hold,Trial upgrade not processing,BILLING_UPGRADE_FRICTION,3. COMMERCIAL_BILLING_CHECKOUT
+267,,,,,Low,New,Invoice not generating correctly,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+268,,,,,Medium,Closed,Error exporting reports,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+269,,,,,High,New,Email sync not working,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+270,,,,,Low,New,Trial upgrade not processing,BILLING_UPGRADE_FRICTION,3. COMMERCIAL_BILLING_CHECKOUT
+271,,,,,High,Closed,Broken link in help center,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+272,,,,,High,Closed,Slow page load times in app,APP_PERFORMANCE_LATENCY,2. PLATFORM_PERFORMANCE_RELIABILITY
+273,,,,,High,In Progress,Two-factor authentication setup failing,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+274,,,,,Low,Closed,API request returning 500 error,BACKEND_API_500_ERROR,1. CRITICAL_DATA_INTEGRATION
+276,,,,,Low,New,Broken link in help center,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+277,,,,,High,Closed,Slow page load times in app,APP_PERFORMANCE_LATENCY,2. PLATFORM_PERFORMANCE_RELIABILITY
+278,,,,,High,On Hold,UI misalignment on Chrome,COSMETIC_UI_DEFECT,4. COSMETIC_MINOR_DEFECTS
+279,,,,,Medium,New,Broken link in help center,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+280,,,,,Medium,On Hold,UI misalignment on Chrome,COSMETIC_UI_DEFECT,4. COSMETIC_MINOR_DEFECTS
+281,,,,,Low,Closed,UI misalignment on Chrome,COSMETIC_UI_DEFECT,4. COSMETIC_MINOR_DEFECTS
+283,,,,,High,In Progress,Trial upgrade not processing,BILLING_UPGRADE_FRICTION,3. COMMERCIAL_BILLING_CHECKOUT
+284,,,,,Medium,On Hold,Notification emails not being sent,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+285,,,,,Low,On Hold,Data sync delay between systems,DATA_SYNC_LATENCY,1. CRITICAL_DATA_INTEGRATION
+286,,,,,High,Open,Two-factor authentication setup failing,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+287,,,,,High,New,UI not loading correctly on dashboard,DASHBOARD_RENDER_FAILURE,2. PLATFORM_PERFORMANCE_RELIABILITY
+288,,,,,Medium,On Hold,Custom field not saving properly,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+289,,,,,High,Open,Permissions not updating for new user,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+290,,,,,Low,Open,UI misalignment on Chrome,COSMETIC_UI_DEFECT,4. COSMETIC_MINOR_DEFECTS
+291,,,,,High,On Hold,Workflow automation not triggering,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+292,,,,,High,On Hold,Integration with Salesforce failing,INTEGRATION_SALESFORCE_FAILURE,1. CRITICAL_DATA_INTEGRATION
+294,,,,,Medium,In Progress,UI misalignment on Chrome,COSMETIC_UI_DEFECT,4. COSMETIC_MINOR_DEFECTS
+295,,,,,Medium,On Hold,Notification emails not being sent,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+297,,,,,Medium,Open,UI misalignment on Chrome,COSMETIC_UI_DEFECT,4. COSMETIC_MINOR_DEFECTS
+298,,,,,Medium,New,UI misalignment on Chrome,COSMETIC_UI_DEFECT,4. COSMETIC_MINOR_DEFECTS
+299,,,,,High,On Hold,Mobile app crashes on login,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+300,,,,,Low,New,Data sync delay between systems,DATA_SYNC_LATENCY,1. CRITICAL_DATA_INTEGRATION
+301,,,,,High,Open,Notification emails not being sent,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+302,,,,,High,On Hold,Broken link in help center,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+303,,,,,High,In Progress,Duplicate records in database,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+304,,,,,Low,On Hold,Invoice not generating correctly,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+305,,,,,Low,On Hold,UI misalignment on Chrome,COSMETIC_UI_DEFECT,4. COSMETIC_MINOR_DEFECTS
+306,,,,,High,Open,Duplicate records in database,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+307,,,,,Medium,New,UI misalignment on Chrome,COSMETIC_UI_DEFECT,4. COSMETIC_MINOR_DEFECTS
+308,,,,,Low,Open,Duplicate records in database,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+309,,,,,High,Open,UI not loading correctly on dashboard,DASHBOARD_RENDER_FAILURE,2. PLATFORM_PERFORMANCE_RELIABILITY
+310,,,,,High,Open,Duplicate records in database,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+311,,,,,High,New,Broken link in help center,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+312,,,,,High,Closed,Two-factor authentication setup failing,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+313,,,,,High,Closed,Permissions not updating for new user,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+314,,,,,High,New,Slow page load times in app,APP_PERFORMANCE_LATENCY,2. PLATFORM_PERFORMANCE_RELIABILITY
+315,,,,,High,New,Error exporting reports,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+316,,,,,Medium,Closed,Email sync not working,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+317,,,,,Medium,Closed,Email sync not working,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+318,,,,,Low,Closed,API request returning 500 error,BACKEND_API_500_ERROR,1. CRITICAL_DATA_INTEGRATION
+319,,,,,Medium,In Progress,Integration with Salesforce failing,INTEGRATION_SALESFORCE_FAILURE,1. CRITICAL_DATA_INTEGRATION
+320,,,,,Low,Closed,Mobile app crashes on login,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+321,,,,,High,On Hold,Account deactivated unexpectedly,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+322,,,,,High,Open,Notification emails not being sent,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+323,,,,,Medium,Closed,Invoice not generating correctly,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+324,,,,,Low,New,Duplicate records in database,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+325,,,,,High,Open,Two-factor authentication setup failing,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+326,,,,,Low,On Hold,Slow page load times in app,APP_PERFORMANCE_LATENCY,2. PLATFORM_PERFORMANCE_RELIABILITY
+328,,,,,High,On Hold,Invoice not generating correctly,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+329,,,,,Medium,In Progress,Email sync not working,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+332,,,,,Low,New,Broken link in help center,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+333,,,,,Medium,In Progress,Mobile app crashes on login,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+334,,,,,Low,In Progress,Data sync delay between systems,DATA_SYNC_LATENCY,1. CRITICAL_DATA_INTEGRATION
+335,,,,,High,In Progress,Unable to log in with SSO,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+336,,,,,High,In Progress,Notification emails not being sent,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+337,,,,,Low,On Hold,Custom field not saving properly,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+339,,,,,High,On Hold,Account deactivated unexpectedly,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+340,,,,,Low,New,Duplicate records in database,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+342,,,,,Medium,Open,Custom field not saving properly,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+343,,,,,Medium,In Progress,Trial upgrade not processing,BILLING_UPGRADE_FRICTION,3. COMMERCIAL_BILLING_CHECKOUT
+344,,,,,Medium,On Hold,Account deactivated unexpectedly,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+346,,,,,Medium,In Progress,Permissions not updating for new user,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+348,,,,,Low,In Progress,Data sync delay between systems,DATA_SYNC_LATENCY,1. CRITICAL_DATA_INTEGRATION
+349,,,,,Medium,New,Email sync not working,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+350,,,,,Medium,In Progress,Slow page load times in app,APP_PERFORMANCE_LATENCY,2. PLATFORM_PERFORMANCE_RELIABILITY
+351,,,,,High,Open,Unable to log in with SSO,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+352,,,,,Low,Closed,Notification emails not being sent,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+353,,,,,High,On Hold,Email sync not working,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+354,,,,,Low,In Progress,Notification emails not being sent,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+356,,,,,Low,In Progress,Unable to log in with SSO,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+357,,,,,High,Open,Invoice not generating correctly,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+359,,,,,Medium,Open,Mobile app crashes on login,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+360,,,,,High,In Progress,Data sync delay between systems,DATA_SYNC_LATENCY,1. CRITICAL_DATA_INTEGRATION
+362,,,,,High,In Progress,API request returning 500 error,BACKEND_API_500_ERROR,1. CRITICAL_DATA_INTEGRATION
+363,,,,,High,Closed,Broken link in help center,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+365,,,,,Medium,New,UI not loading correctly on dashboard,DASHBOARD_RENDER_FAILURE,2. PLATFORM_PERFORMANCE_RELIABILITY
+366,,,,,Medium,New,Integration with Salesforce failing,INTEGRATION_SALESFORCE_FAILURE,1. CRITICAL_DATA_INTEGRATION
+367,,,,,Medium,Closed,Slow page load times in app,APP_PERFORMANCE_LATENCY,2. PLATFORM_PERFORMANCE_RELIABILITY
+368,,,,,Medium,In Progress,Two-factor authentication setup failing,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+369,,,,,High,Closed,Mobile app crashes on login,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+370,,,,,Medium,Closed,Slow page load times in app,APP_PERFORMANCE_LATENCY,2. PLATFORM_PERFORMANCE_RELIABILITY
+371,,,,,Low,On Hold,Permissions not updating for new user,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+372,,,,,Medium,Closed,Duplicate records in database,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+374,,,,,Medium,New,Slow page load times in app,APP_PERFORMANCE_LATENCY,2. PLATFORM_PERFORMANCE_RELIABILITY
+375,,,,,Medium,On Hold,Unable to log in with SSO,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+376,,,,,Low,In Progress,Slow page load times in app,APP_PERFORMANCE_LATENCY,2. PLATFORM_PERFORMANCE_RELIABILITY
+377,,,,,High,Closed,Invoice not generating correctly,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+379,,,,,Medium,Open,Data sync delay between systems,DATA_SYNC_LATENCY,1. CRITICAL_DATA_INTEGRATION
+380,,,,,Low,New,Two-factor authentication setup failing,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+381,,,,,High,In Progress,UI misalignment on Chrome,COSMETIC_UI_DEFECT,4. COSMETIC_MINOR_DEFECTS
+382,,,,,Medium,Open,Account deactivated unexpectedly,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+383,,,,,High,New,Mobile app crashes on login,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+384,,,,,High,Open,Email sync not working,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+386,,,,,Low,New,Invoice not generating correctly,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+387,,,,,Low,Open,Error exporting reports,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+388,,,,,Low,On Hold,Trial upgrade not processing,BILLING_UPGRADE_FRICTION,3. COMMERCIAL_BILLING_CHECKOUT
+390,,,,,High,On Hold,Broken link in help center,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+391,,,,,High,Closed,Notification emails not being sent,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+392,,,,,Low,On Hold,UI not loading correctly on dashboard,DASHBOARD_RENDER_FAILURE,2. PLATFORM_PERFORMANCE_RELIABILITY
+393,,,,,Low,On Hold,Slow page load times in app,APP_PERFORMANCE_LATENCY,2. PLATFORM_PERFORMANCE_RELIABILITY
+394,,,,,Low,In Progress,Slow page load times in app,APP_PERFORMANCE_LATENCY,2. PLATFORM_PERFORMANCE_RELIABILITY
+396,,,,,Medium,On Hold,Unable to log in with SSO,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+397,,,,,Medium,New,Integration with Salesforce failing,INTEGRATION_SALESFORCE_FAILURE,1. CRITICAL_DATA_INTEGRATION
+398,,,,,Medium,Closed,UI misalignment on Chrome,COSMETIC_UI_DEFECT,4. COSMETIC_MINOR_DEFECTS
+400,,,,,Low,In Progress,Account deactivated unexpectedly,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+401,,,,,Low,On Hold,Broken link in help center,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+402,,,,,High,Closed,Permissions not updating for new user,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+405,,,,,High,In Progress,API request returning 500 error,BACKEND_API_500_ERROR,1. CRITICAL_DATA_INTEGRATION
+406,,,,,Low,On Hold,Email sync not working,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+408,,,,,High,In Progress,API request returning 500 error,BACKEND_API_500_ERROR,1. CRITICAL_DATA_INTEGRATION
+409,,,,,Low,New,API request returning 500 error,BACKEND_API_500_ERROR,1. CRITICAL_DATA_INTEGRATION
+410,,,,,High,In Progress,API request returning 500 error,BACKEND_API_500_ERROR,1. CRITICAL_DATA_INTEGRATION
+411,,,,,High,In Progress,Two-factor authentication setup failing,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+412,,,,,Medium,Closed,UI misalignment on Chrome,COSMETIC_UI_DEFECT,4. COSMETIC_MINOR_DEFECTS
+413,,,,,Low,Closed,Notification emails not being sent,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+414,,,,,Medium,New,UI not loading correctly on dashboard,DASHBOARD_RENDER_FAILURE,2. PLATFORM_PERFORMANCE_RELIABILITY
+415,,,,,Low,New,Invoice not generating correctly,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+416,,,,,High,Closed,Notification emails not being sent,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+419,,,,,High,Open,Data sync delay between systems,DATA_SYNC_LATENCY,1. CRITICAL_DATA_INTEGRATION
+420,,,,,Low,Open,Two-factor authentication setup failing,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+421,,,,,Medium,On Hold,Mobile app crashes on login,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+422,,,,,Low,Closed,UI not loading correctly on dashboard,DASHBOARD_RENDER_FAILURE,2. PLATFORM_PERFORMANCE_RELIABILITY
+423,,,,,High,In Progress,Workflow automation not triggering,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+424,,,,,High,On Hold,UI misalignment on Chrome,COSMETIC_UI_DEFECT,4. COSMETIC_MINOR_DEFECTS
+425,,,,,High,Open,Duplicate records in database,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+426,,,,,Low,Closed,Invoice not generating correctly,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+429,,,,,Low,Closed,Account deactivated unexpectedly,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+431,,,,,Medium,On Hold,Slow page load times in app,APP_PERFORMANCE_LATENCY,2. PLATFORM_PERFORMANCE_RELIABILITY
+433,,,,,Medium,Open,Duplicate records in database,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+434,,,,,High,Open,Workflow automation not triggering,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+435,,,,,High,Closed,Email sync not working,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+436,,,,,High,In Progress,Notification emails not being sent,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+437,,,,,Low,Closed,Trial upgrade not processing,BILLING_UPGRADE_FRICTION,3. COMMERCIAL_BILLING_CHECKOUT
+438,,,,,Medium,In Progress,UI misalignment on Chrome,COSMETIC_UI_DEFECT,4. COSMETIC_MINOR_DEFECTS
+439,,,,,High,Closed,Email sync not working,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+441,,,,,Low,Open,Email sync not working,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+442,,,,,Low,In Progress,Unable to log in with SSO,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+444,,,,,Medium,Open,Permissions not updating for new user,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+445,,,,,High,Closed,Error exporting reports,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+446,,,,,Medium,On Hold,API request returning 500 error,BACKEND_API_500_ERROR,1. CRITICAL_DATA_INTEGRATION
+447,,,,,Medium,On Hold,Permissions not updating for new user,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+448,,,,,Medium,Closed,Permissions not updating for new user,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+449,,,,,Low,Closed,Broken link in help center,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+450,,,,,Medium,New,Duplicate records in database,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+451,,,,,High,In Progress,UI not loading correctly on dashboard,DASHBOARD_RENDER_FAILURE,2. PLATFORM_PERFORMANCE_RELIABILITY
+452,,,,,Medium,New,Mobile app crashes on login,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+453,,,,,Medium,In Progress,UI not loading correctly on dashboard,DASHBOARD_RENDER_FAILURE,2. PLATFORM_PERFORMANCE_RELIABILITY
+454,,,,,Low,Closed,Account deactivated unexpectedly,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+455,,,,,Medium,On Hold,Notification emails not being sent,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+456,,,,,Low,New,Trial upgrade not processing,BILLING_UPGRADE_FRICTION,3. COMMERCIAL_BILLING_CHECKOUT
+457,,,,,Low,Open,Slow page load times in app,APP_PERFORMANCE_LATENCY,2. PLATFORM_PERFORMANCE_RELIABILITY
+458,,,,,High,In Progress,UI not loading correctly on dashboard,DASHBOARD_RENDER_FAILURE,2. PLATFORM_PERFORMANCE_RELIABILITY
+460,,,,,Medium,Open,API request returning 500 error,BACKEND_API_500_ERROR,1. CRITICAL_DATA_INTEGRATION
+461,,,,,High,In Progress,UI misalignment on Chrome,COSMETIC_UI_DEFECT,4. COSMETIC_MINOR_DEFECTS
+462,,,,,High,Open,API request returning 500 error,BACKEND_API_500_ERROR,1. CRITICAL_DATA_INTEGRATION
+463,,,,,Medium,In Progress,Two-factor authentication setup failing,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+464,,,,,Medium,New,Data sync delay between systems,DATA_SYNC_LATENCY,1. CRITICAL_DATA_INTEGRATION
+465,,,,,Medium,New,Workflow automation not triggering,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+466,,,,,High,New,UI misalignment on Chrome,COSMETIC_UI_DEFECT,4. COSMETIC_MINOR_DEFECTS
+467,,,,,High,In Progress,Integration with Salesforce failing,INTEGRATION_SALESFORCE_FAILURE,1. CRITICAL_DATA_INTEGRATION
+468,,,,,High,Open,Notification emails not being sent,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+469,,,,,Medium,Open,UI not loading correctly on dashboard,DASHBOARD_RENDER_FAILURE,2. PLATFORM_PERFORMANCE_RELIABILITY
+470,,,,,High,On Hold,Custom field not saving properly,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+472,,,,,Medium,Open,Two-factor authentication setup failing,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+473,,,,,Low,In Progress,Data sync delay between systems,DATA_SYNC_LATENCY,1. CRITICAL_DATA_INTEGRATION
+474,,,,,Medium,On Hold,Custom field not saving properly,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+475,,,,,Medium,In Progress,Email sync not working,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+476,,,,,High,In Progress,Trial upgrade not processing,BILLING_UPGRADE_FRICTION,3. COMMERCIAL_BILLING_CHECKOUT
+477,,,,,High,On Hold,Data sync delay between systems,DATA_SYNC_LATENCY,1. CRITICAL_DATA_INTEGRATION
+478,,,,,Low,On Hold,Mobile app crashes on login,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+479,,,,,Low,Open,Email sync not working,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+480,,,,,Medium,New,Broken link in help center,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+481,,,,,High,In Progress,Mobile app crashes on login,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+483,,,,,Low,New,Trial upgrade not processing,BILLING_UPGRADE_FRICTION,3. COMMERCIAL_BILLING_CHECKOUT
+484,,,,,Low,New,Two-factor authentication setup failing,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+485,,,,,Medium,New,Duplicate records in database,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+486,,,,,Low,Open,Trial upgrade not processing,BILLING_UPGRADE_FRICTION,3. COMMERCIAL_BILLING_CHECKOUT
+487,,,,,Medium,In Progress,Email sync not working,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+488,,,,,Low,On Hold,Unable to log in with SSO,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+490,,,,,Medium,Closed,Slow page load times in app,APP_PERFORMANCE_LATENCY,2. PLATFORM_PERFORMANCE_RELIABILITY
+491,,,,,Low,New,UI misalignment on Chrome,COSMETIC_UI_DEFECT,4. COSMETIC_MINOR_DEFECTS
+492,,,,,Low,Open,Workflow automation not triggering,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+493,,,,,Medium,Closed,Broken link in help center,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+495,,,,,Low,New,Data sync delay between systems,DATA_SYNC_LATENCY,1. CRITICAL_DATA_INTEGRATION
+496,,,,,Medium,New,Slow page load times in app,APP_PERFORMANCE_LATENCY,2. PLATFORM_PERFORMANCE_RELIABILITY
+497,,,,,Medium,Closed,Custom field not saving properly,OTHER_INQUIRY,4. COSMETIC_MINOR_DEFECTS
+498,,,,,Medium,New,Integration with Salesforce failing,INTEGRATION_SALESFORCE_FAILURE,1. CRITICAL_DATA_INTEGRATION
+499,,,,,High,Closed,Integration with Salesforce failing,INTEGRATION_SALESFORCE_FAILURE,1. CRITICAL_DATA_INTEGRATION
