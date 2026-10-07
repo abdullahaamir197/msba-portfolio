@@ -36,6 +36,35 @@ The analysis recommends rejecting the highly vocal but commercially immaterial *
 | SMB LTV:CAC | **0.57x** | Move SMB acquisition to a self-serve PLG motion |
 | Enterprise LTV:CAC | **9.24x** | Concentrate sales and product investment on the enterprise ICP |
 
+### Results at a glance
+
+#### Funnel conversion
+
+```mermaid
+xychart-beta
+    title "Opportunity volume falls sharply before Closed Won"
+    x-axis ["Prospecting", "Demo scheduled", "Negotiation", "Closed Won"]
+    y-axis "Opportunities" 0 --> 160
+    bar [150, 85, 54, 23]
+```
+
+#### Segment economics
+
+| Segment | Win rate | CAC payback | LTV:CAC |
+| --- | ---: | ---: | ---: |
+| Small Business (SMB) | 33.33% | 0.1 months | 1,042.44x |
+| Mid-Market | 75.00% | 0.3 months | 284.43x |
+| Enterprise Scale | 40.43% | 1.3 months | 59.91x |
+
+#### Retention and support risk
+
+| Measure | Result | What it means |
+| --- | ---: | --- |
+| Closed Won opportunities | 23 of 150 | Only 15.33% of the full pipeline reached a win |
+| Negotiation-to-Won conversion | 42.59% | More than half of negotiation-stage opportunities were lost |
+| Support-ticket linkage before deal close | 38.71%–47.83% | Support activity is present across all decision stages |
+| Enterprise ARR associated with integration risk | USD 1.84M | Reliability work has a clear commercial case |
+
 ---
 
 ## The business question
