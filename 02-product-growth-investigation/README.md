@@ -6,9 +6,9 @@
 
 **Horizon B2B Systems · Product & Growth Investigation · Business Decision Architecture**
 
-[![DuckDB](https://img.shields.io/badge/SQL-DuckDB-FFF000?style=flat-square&logo=duckdb&logoColor=000000)](../sql/)
-[![Power BI](https://img.shields.io/badge/BI-Power%20BI-F2C811?style=flat-square&logo=powerbi&logoColor=000000)](../power-bi/horizon_analytics.pbix)
-[![Python](https://img.shields.io/badge/Data-Python-3776AB?style=flat-square&logo=python&logoColor=ffffff)](./saas_hubspot_dataset.py)
+[![DuckDB](https://img.shields.io/badge/SQL-DuckDB-FFF000?style=flat-square&logo=duckdb&logoColor=000000)](./sql/)
+[![Power BI](https://img.shields.io/badge/BI-Power%20BI-F2C811?style=flat-square&logo=powerbi&logoColor=000000)](./power-bi/horizon_analytics.pbix)
+[![Python](https://img.shields.io/badge/Data-Python-3776AB?style=flat-square&logo=python&logoColor=ffffff)](./data/saas_hubspot_dataset.py)
 [![Status](https://img.shields.io/badge/Status-Flagship%20Deliverable-1F6FEB?style=flat-square)](#deliverable-map)
 
 **A decision-ready analysis connecting CRM telemetry, support operations, customer research, and unit economics.**
@@ -57,7 +57,7 @@ The investigation replaced opinion with a governed analytical model spanning dea
 
 The cohort model shows early customer groups plateauing after an initial drop, while later cohorts in non-core industries display single-buyer behavior.
 
-**Analysis:** [`01_cohort_retention_channel_mix.sql`](../sql/01_cohort_retention_channel_mix.sql)
+**Analysis:** [`01_cohort_retention_channel_mix.sql`](./sql/01_cohort_retention_channel_mix.sql)
 
 ### 02 · The largest pipeline leak is at the final commercial gate
 
@@ -70,13 +70,13 @@ The cohort model shows early customer groups plateauing after an initial drop, w
 
 The final gate is the bottleneck: **31 of 54 negotiation-stage opportunities were lost**.
 
-**Analysis:** [`02_funnel_dropoff_analysis.sql`](../sql/02_funnel_dropoff_analysis.sql)
+**Analysis:** [`02_funnel_dropoff_analysis.sql`](./sql/02_funnel_dropoff_analysis.sql)
 
 ### 03 · Support issues provide an actionable warning signal
 
 Reverse-joining deals and support tickets within a 60-day window found unresolved support issues before lost deals. The average wait was **36.8 hours**, compared with a target of under four hours, creating an average warning window of **22.4 days**.
 
-**Analysis:** [`03_ttv_and_cancellation_sequencing.sql`](../sql/03_ttv_and_cancellation_sequencing.sql)
+**Analysis:** [`03_ttv_and_cancellation_sequencing.sql`](./sql/03_ttv_and_cancellation_sequencing.sql)
 
 ### 04 · The average customer hides a bimodal business
 
@@ -85,7 +85,7 @@ Reverse-joining deals and support tickets within a 60-day window found unresolve
 | SMB | 22.5% win rate · 0.57x LTV:CAC · 7.8-month payback | Product-led self-service |
 | Enterprise Scale | 68.2% win rate · 9.24x LTV:CAC · USD 210K average deal | Sales-led expansion |
 
-**Analysis:** [`04_plan_level_economics.sql`](../sql/04_plan_level_economics.sql)
+**Analysis:** [`04_plan_level_economics.sql`](./sql/04_plan_level_economics.sql)
 
 ### 05 · Customer research separates noise from commercial risk
 
@@ -98,7 +98,7 @@ The qualitative matrices show that integration and API failures carry materially
 | `COMMERCIAL_BILLING_CHECKOUT` | Friction in the conversion and expansion journey |
 | Feature X requests | High vocal noise, immaterial ARR exposure |
 
-**Research assets:** [`research/`](../research/)
+**Research assets:** [`research/`](./research/)
 
 ---
 
@@ -153,8 +153,8 @@ The project uses a governed Kimball star schema across DuckDB and Power BI:
 
 Read the governing specifications:
 
-- [`DATA_MODEL_ARCHITECTURE.md`](../DATA_MODEL_ARCHITECTURE.md) — grain, keys, relationships, and filter rules
-- [`KPI_GOVERNANCE.md`](../KPI_GOVERNANCE.md) — metric definitions, owners, and quality controls
+- [`DATA_MODEL_ARCHITECTURE.md`](./DATA_MODEL_ARCHITECTURE.md) — grain, keys, relationships, and filter rules
+- [`KPI_GOVERNANCE.md`](./KPI_GOVERNANCE.md) — metric definitions, owners, and quality controls
 
 ---
 
@@ -162,26 +162,26 @@ Read the governing specifications:
 
 | Asset | Purpose |
 | --- | --- |
-| [`horizon_analytics.pbix`](../power-bi/horizon_analytics.pbix) | Interactive Power BI semantic model and dashboard |
-| [`sql/`](../sql/) | Reproducible cohort, funnel, support, economics, and triangulation analyses |
-| [`sql/results/`](../sql/results/) | Exported query outputs |
-| [`research/`](../research/) | JTBD, Kano, RICE, thematic coding, and triangulation matrices |
-| [`companies.csv`](./companies.csv) | Account dimension source |
-| [`contacts.csv`](./contacts.csv) | Contact dimension source |
-| [`deals.csv`](./deals.csv) | Sales pipeline and deal events |
-| [`tickets.csv`](./tickets.csv) | Support incidents and resolution history |
-| [`products.csv`](./products.csv) | Product and pricing reference data |
-| [`saas_hubspot_dataset.py`](./saas_hubspot_dataset.py) | Synthetic HubSpot-style data generator |
+| [`horizon_analytics.pbix`](./power-bi/horizon_analytics.pbix) | Interactive Power BI semantic model and dashboard |
+| [`sql/`](./sql/) | Reproducible cohort, funnel, support, economics, and triangulation analyses |
+| [`sql/results/`](./sql/results/) | Exported query outputs |
+| [`research/`](./research/) | JTBD, Kano, RICE, thematic coding, and triangulation matrices |
+| [`companies.csv`](./data/companies.csv) | Account dimension source |
+| [`contacts.csv`](./data/contacts.csv) | Contact dimension source |
+| [`deals.csv`](./data/deals.csv) | Sales pipeline and deal events |
+| [`tickets.csv`](./data/tickets.csv) | Support incidents and resolution history |
+| [`products.csv`](./data/products.csv) | Product and pricing reference data |
+| [`saas_hubspot_dataset.py`](./data/saas_hubspot_dataset.py) | Synthetic HubSpot-style data generator |
 
 ## Reproduce the analysis
 
 From the project directory:
 
 ```powershell
-python run_sql.py sql/01_cohort_retention_channel_mix.sql
+python 02-product-growth-investigation/run_sql.py 02-product-growth-investigation/sql/01_cohort_retention_channel_mix.sql
 ```
 
-The query writes its output to [`sql/results/`](../sql/results/). The Power BI report is included as a downloadable `.pbix` artifact for review in Power BI Desktop.
+The query writes its output to [`sql/results/`](./sql/results/). The Power BI report is included as a downloadable `.pbix` artifact for review in Power BI Desktop.
 
 > **Data note:** The dataset is synthetic and intended for portfolio demonstration, analytical prototyping, and testing. It is not connected to HubSpot and contains no real customer data.
 
